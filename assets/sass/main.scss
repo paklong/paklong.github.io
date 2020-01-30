@@ -205,7 +205,7 @@
 		@include vendor('animation', 'bg #{_duration(bg)} linear infinite');
 		@include vendor('backface-visibility', 'hidden');
 		@include vendor('transform', 'translate3d(0,0,0)');
-		animation-direction: normal;
+		animation-direction: alternate-reverse;
 		/* Set your background with this */
 		background: _misc(bg);
 
