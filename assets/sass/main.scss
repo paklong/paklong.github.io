@@ -206,7 +206,6 @@
 		@include vendor('backface-visibility', 'hidden');
 		@include vendor('transform', 'translate3d(0,0,0)');
 		
-		animation-direction: reverse;
 		
 		/* Set your background with this */
 		background: _misc(bg);
