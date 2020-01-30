@@ -202,7 +202,7 @@
 /* BG */
 
 	#bg {
-		@include vendor('animation', 'bg #{_duration(bg)} linear infinite');
+		@include vendor('animation', 'bg #{_duration(bg)} linear infinite alternate');
 		@include vendor('backface-visibility', 'hidden');
 		@include vendor('transform', 'translate3d(0,0,0)');
 
